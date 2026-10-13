@@ -1735,3 +1735,8 @@ test_i2c_cht8305: cht8305@e0 {
 	heater;
 	disable-clock-stretching;
 };
+
+test_i2c_sen0466: sen0466@e1 {
+	compatible = "dfrobot,sen0466";
+	reg = <0xe1>;
+};
